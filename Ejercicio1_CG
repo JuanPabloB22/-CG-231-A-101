@@ -1,0 +1,7 @@
+listanumeros=[]
+valor=int(input("Ingrese el valor (num 0 para finalizar): "))
+while valor != 0:
+    listanumeros.append(valor)
+    valor=int(input("Ingresar el valor (num 0 para finalizar): "))
+listanumeros.sort()
+print(listanumeros)
